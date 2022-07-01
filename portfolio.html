@@ -1,0 +1,199 @@
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./css/portfolio.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+					<div class="col-lg-2 col-sm-12 pt-3">
+						<img src="./images/logo.png" alt="">
+					</div>
+					
+                    <div class="col-lg-10 col-sm-12 pt-3">
+                        <nav class=" navbar navbar-expand-md navbar-dark">
+
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="index.html">Acceuil</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="services.html">Nos services</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="portfolio.html">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="formulaire.html">Nous contacter</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="propos.html">A propos</a></li>
+                                </ul>
+								<a class="text-light " href="login.html"><i class="fas fa-power-off"></i></a>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        <!-- Fin de la barre de Navigation -->
+		</header>
+        <main>
+            <section id="portfolio">
+                <div class="heading">
+                    <h1>Portfolio</h1>
+                </div>
+                <!----Première ligne du portfolio---->
+                <!--Pour chaque partie on y retrouve photo/logo/titre/texte-->
+                <!--Sur PC les logo Google et Amazon ne sont pas bien aligner avec les autre logo car ils ne sont pas de la même taille-->
+                    <div class="container-service">
+                        <div>
+                            <div class="overlay-image "><a href="https://google.com" target="_blank">
+                                    <img class="image img-thumbnail" src="./images/google1.jpg" />
+                                    <div class="hover">
+                                        <div class="titre">Titre</div>
+                                    </div>
+                                    </a>
+                            </div>
+                                <img id="logo" src="./images/google_logo.png" />
+                                <h3>Titre</h3>
+                                <div id="text">
+                                    <p>Google est une entreprise américaine de services technologiques fondée en 1998 dans la Silicon Valley, 
+                                        en Californie, par Larry Page et Sergey Brin, créateurs du moteur de recherche Google. 
+                                        C'est une filiale de la société Alphabet depuis août 2015.</p>
+                                </div> 
+                        </div>
+                        <div>
+                            <div class="overlay-image"><a href="https://www.apple.com/" target="_blank">
+                                    <img class="image img-thumbnail" src="./images/apple1.jpg" />
+                                    <div class="hover">
+                                        <div class="titre">Titre</div>
+                                    </div>
+                                    </a>
+                            </div>
+                            <img id="logo" src="./images/apple_logo2.png" />
+                            <h3>Titre</h3>
+                            <div id="text">
+                                <p>Apple est une entreprise multinationale américaine qui crée et
+                                    commercialise des produits électroniques grand public, 
+                                    des ordinateurs personnels et des logiciels.</p>
+                            </div>
+                        </div>
+                        <div> 
+                            <div class="overlay-image"><a href="facebook.com" target="_blank">
+                                <img class="image img-thumbnail" src="./images/facebook.jpg" />
+                                <div class="hover">
+                                    <div class="titre">Titre</div>
+                                </div>
+                            </a>
+                            </div>
+                            <img id="logo" src="./images/facebook-logo1.png" />
+                            <h3>Titre</h3>
+                            <div id="text">
+                                <p>Meta Platforms, Inc., plus connu sous le nom commercial Meta, 
+                                    est une société américaine créée en 2004 par Mark Zuckerberg. Elle est un des géants du Web, 
+                                    regroupés sous l'acronyme GAFAM, aux côtés de Google, Apple, Amazon et Microsoft.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row" id="text-pc">
+                        <div class="col-lg-4" >
+                            <img src="./images/google_logo.png" id="logo-pc" />
+                            <p >Google est une entreprise américaine de services technologiques fondée en 1998 dans la Silicon Valley, 
+                                en Californie, par Larry Page et Sergey Brin, créateurs du moteur de recherche Google. 
+                                C'est une filiale de la société Alphabet depuis août 2015.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="./images/apple_logo2.png"  id="logo-pc"/>
+                            <p >Apple est une entreprise multinationale américaine qui crée et
+                                commercialise des produits électroniques grand public, 
+                                des ordinateurs personnels et des logiciels.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="./images/facebook-logo1.png" id="logo-pc"/>
+                            <p>Meta Platforms, Inc., plus connu sous le nom commercial Meta, 
+                                est une société américaine créée en 2004 par Mark Zuckerberg. Elle est un des géants du Web, 
+                                regroupés sous l'acronyme GAFAM, aux côtés de Google, Apple, Amazon et Microsoft.</p>
+                        </div>
+                    </div>       
+                    
+                    <!----Deuxième ligne du portfolio---->
+                    <div class="container-service">
+                        <div>
+                            <div class="overlay-image"><a href="https://www.amazon.fr" target="_blank">
+                                    <img class="image img-thumbnail" src="./images/amazon1.jpg" />
+                                    <div class="hover">
+                                        <div class="titre">Titre</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <img id="logo" src="./images/amazon-logo-blanc.jpg" />
+                                <h3>Titre</h3>
+                                <div id="text">
+                                    <p>Amazon est une entreprise de commerce en ligne américaine basée à Seattle. 
+                                        Elle est l'un des géants du Web, regroupés sous l'acronyme GAFAM, aux côtés de Google, 
+                                        Apple, Facebook et Microsoft. Créée par Jeff Bezos en juillet 1994, 
+                                        l'entreprise a été introduite en bourse au NASDAQ en mai 1997.</p>
+                                </div>
+                        </div>
+                        <div>
+                            <div class="overlay-image"><a href="https://www.tesla.com" target="_blank">
+                                    <img class="image img-thumbnail" src="./images/tesla1.jpg" />
+                                    <div class="hover">
+                                        <div class="titre">Titre</div>
+                                    </div>
+                                    </a>
+                            </div>
+                            <img id="logo" src="./images/tesla_logo1.png" />
+                            <h3>Titre</h3>
+                            <div id="text">
+                                <p>Tesla Inc., appelé Tesla Motors jusqu'en 2017, est un constructeur automobile de voitures électriques 
+                                    dont le siège social se situe à Austin, au Texas, sur le fleuve Colorado, aux États-Unis. 
+                                    Le nom de l'entreprise est choisi en hommage à Nikola Tesla, 
+                                    inventeur et ingénieur américain d’origine serbe.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="overlay-image"><a href="https://www.nasa.gov/" target="_blank">
+                                <img class="image, img-thumbnail" src="./images/nasa1.jpg" />
+                                <div class="hover">
+                                    <div class="titre">Titre</div>
+                                </div>
+                            </a>
+                            </div>
+                            <img id="logo" src="./images/nasa-logo1.png" />
+                            <h3>Titre</h3>
+                            <div id="text">
+                                <p>Meta Platforms, Inc., plus connu sous le nom commercial Meta, 
+                                    est une société américaine créée en 2004 par Mark Zuckerberg. Elle est un des géants du Web, 
+                                    regroupés sous l'acronyme GAFAM, aux côtés de Google, Apple, Amazon et Microsoft.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row"  id="text-pc" >
+                        <div class="col-lg-4">
+                            <img src="./images/amazon-logo-blanc.jpg" id="logo-pc" />
+                            <p >Amazon est une entreprise de commerce en ligne américaine basée à Seattle. 
+                                Elle est l'un des géants du Web, regroupés sous l'acronyme GAFAM, aux côtés de Google, 
+                                Apple, Facebook et Microsoft. Créée par Jeff Bezos en juillet 1994, 
+                                l'entreprise a été introduite en bourse au NASDAQ en mai 1997.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="./images/tesla_logo1.png" id="logo-pc"/>
+                            <p >Tesla Inc., appelé Tesla Motors jusqu'en 2017, est un constructeur automobile de voitures électriques 
+                                dont le siège social se situe à Austin, au Texas, sur le fleuve Colorado, aux États-Unis. 
+                                Le nom de l'entreprise est choisi en hommage à Nikola Tesla, 
+                                inventeur et ingénieur américain d’origine serbe.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="./images/nasa-logo1.png" id="logo-pc"/>
+                            <p>La National Aeronautics and Space Administration, plus connue sous son acronyme NASA, 
+                                est l'agence fédérale responsable de la majeure partie du programme spatial civil des États-Unis. 
+                                 La recherche aéronautique relève également du domaine de la NASA.</p>
+                        </div>
+                    </div>             
+            </section>
+        </main>
+		<script src="./js/data.js"></script>
+    </body>
+</html>

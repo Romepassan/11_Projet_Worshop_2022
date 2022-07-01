@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+		<meta name="viewport">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Newsletter</title>
+        <script src="https://kit.fontawesome.com/b6adabe3fe.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"></script>
+
+    </head>
+    
+    <body>
+         <header>
+            <div class="container-fluid">
+                <div class="row">
+					<div class="col-lg-1 col-sm-12 pt-3">
+						<h1><img src="./images/logo.png" alt=""></h1>
+					</div>
+					
+                    <div class="col-lg-9 col-sm-12 pt-3">
+                        <nav class=" navbar navbar-expand-md navbar-dark">
+                            <img src="images/logo.png" alt="">
+
+                            <div class="collapse navbar-collapse justify-content-center">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="index.html">Acceuil</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="services.html">Nos services</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="portfolio.html">Porfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="formulaire.html">Nous contacter</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light mx-4" href="propos.html">A propos</a></li>
+                                </ul>
+								<a class="text-light " href="login.html"><i class="fas fa-power-off"></i></a>
+                            </div>
+
+                        </nav>
+                    </div>
+                        
+                    <div class="col-lg-2 col-sm-12 pt-4">
+						<button id="theme-switcher" class="btn btn-secondary ms-3">Light theme</button>
+						
+                    </div> 
+                </div>
+            </div>
+        <!-- Fin de la barre de Navigation -->
+		</header>
+		
+		<!-- Formulaire newsletter-->
+		<div>
+			<form id="form_newsletter" action="action_page.php">
+				<div class="container_newsletter">
+					<h2>S'abonner à notre Newsletter</h2>
+					<p>Lorem ipsum..</p>
+				</div>
+
+				<div class="container">
+					<input type="text" placeholder="Nom et Prénom" name="name" required>
+					<input type="text" placeholder="Adresse email" name="mail" required>
+					<label>
+						<input type="checkbox" checked="checked" name="subscribe"> S'abonner
+					</label>
+				</div>
+
+				<div class="container">
+					<input type="submit" value="Valider">
+				</div>
+			</form> 
+		</div> 
+		<!-- fin du formulaire-->
+		
+		
+		<script src="js/data.js"></script>
+	
+	
+	<!-- Footer -->
+	<footer class="bg-dark text-center text-white"> 
+		<!-- Section: Form -->
+			<!-- Section: Links -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12 mr-auto ml-auto">
+							<nav class=" navbar navbar-expand-md navbar-dark">
+								<img src="image/logo.png" alt="">
+								<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+									<ul class="navbar-nav mr-auto">
+										<li class="nav-item"><a class="nav-link text-light mx-4 px-5" href="index.html">Mention legal</a></li>
+										<li class="nav-item"><a class="nav-link text-light mx-4 px-5" href="services.html">Paramètre des cookies</a></li>
+										<li class="nav-item"><a class="nav-link text-light mx-4 px-5" href="newletter.html">Newsletter</a></li>
+										<li class="nav-item"><a class="nav-link text-light mx-4 px-5" href="formulaire.html">Nous contacter</a></li>
+										<li class="nav-item"><a class="nav-link text-light mx-4 px-5" href="propos.html">Plan du site</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+		<!-- Grid container -->
+		<div class="container p-4">
+			<!-- div: Social media -->
+			<div class="mb-4">
+				<!-- Facebook -->
+				<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-f"></i></a>
+
+				<!-- Twitter -->
+				<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-twitter"></i></a>
+
+				<!-- Google -->
+				<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-google"></i></a>
+
+				<!-- Instagram -->
+				<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
+			</div>
+		<!-- div: Social media -->
+			
+		</div>
+
+		<!-- Copyright -->
+		<div class="text-center p-3 copyright">
+			© 2022 Copyright:
+			<a class="text-white" href="#!">Romain Jonathan Gael</a>
+		</div>
+		<!-- Copyright -->
+
+		</footer>
+	</body>
+</html>
